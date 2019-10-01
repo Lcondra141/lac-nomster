@@ -9,10 +9,13 @@ default: &default
 development:
   <<: *default
   database: nomster_development
+  username: landocondra
+
 
 test:
   <<: *default
   database: nomster_test
+  username: landocondra
 
 production:
   <<: *default
