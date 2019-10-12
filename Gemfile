@@ -78,3 +78,5 @@ gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
 gem "geocoder"
 
 gem "figaro"
+
+gem 'carrierwave', '~> 2.0'
